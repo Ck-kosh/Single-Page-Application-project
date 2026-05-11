@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 
 function ProjectList({ projects }) {
   return (
-    <div className="grid">
+    <div style={{ display: "grid", gap: "10px" }}>
       {projects.map((project) => (
         <ProjectCard key={project.id} project={project} />
       ))}

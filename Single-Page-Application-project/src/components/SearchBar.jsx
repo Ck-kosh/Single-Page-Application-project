@@ -5,7 +5,6 @@ function SearchBar({ search, setSearch }) {
       placeholder="Search projects..."
       value={search}
       onChange={(e) => setSearch(e.target.value)}
-      className="search-bar"
     />
   );
 }
